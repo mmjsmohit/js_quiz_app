@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ScriptSage - Daily Quiz to test your JS Knowledge</title>
+    <link rel="shortcut icon" href="images/quiz.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main>
+        <section class="quiz">
+            <div class="heading">
+                <p class="title">ScriptSage</p>
+                <p class="subtitle">Daily Quiz to test your JS Knowledge</p>
+            </div>
+
+            <div class="result hide">
+                <p>Your Score: <span id="score"></span>/5</p>
+                <p class="reload">
+                    <button onclick="window.location.reload(true)">Try Again?</button>
+                </p>
+            </div>
+
+            <form class="quiz-form">
+                <div class="question">
+                    <p>1. What is the output of the following code?</p>
+                    <pre><code>console.log(2 + 2);</code></pre>
+                    <div class="option">
+                        <input type="radio" name="q1" value="A" >
+                        <label for="">A. 4</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q1" value="B" >
+                        <label for="">B. 2</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q1" value="C" >
+                        <label for="">C. 22</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q1" value="D" >
+                        <label for="">D. NaN</label>
+                    </div>
+                </div>
+                <div class="question">
+                    <p>2. What is the correct way to declare a variable in JavaScript?</p>
+                    <div class="option">
+                        <input type="radio" name="q2" value="A" >
+                        <label for="">A. var x;</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q2" value="B" >
+                        <label for="">B. variable x;</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q2" value="C" >
+                        <label for="">C. value x;</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q2" value="D" >
+                        <label for="">D. constant x;</label>
+                    </div>
+                </div>
+                <div class="question">
+                    <p>3. What is the result of the following expression?</p>
+                    <pre><code>typeof null;</code></pre>
+                    <div class="option">
+                        <input type="radio" name="q3" value="A" >
+                        <label for="">A. "object"</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q3" value="B" >
+                        <label for="">B. "null"</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q3" value="C" >
+                        <label for="">C. "undefined"</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q3" value="D" >
+                        <label for="">D. "function"</label>
+                    </div>
+                </div>
+                <div class="question">
+                    <p>4. What is the correct way to write a comment in JavaScript?</p>
+                    <div class="option">
+                        <input type="radio" name="q4" value="A" >
+                        <label for="">A. // This is a comment</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q4" value="B" >
+                        <label for="">B. &lt;!-- This is a comment --&gt;</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q4" value="C" >
+                        <label for="">C. /* This is a comment */</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q4" value="D" >
+                        <label for="">D. # This is a comment</label>
+                    </div>
+                </div>
+                <div class="question">
+                    <p>5. What is the output of the following code?</p>
+                    <pre><code>console.log("Hello" + "World");</code></pre>
+                    <div class="option">
+                        <input type="radio" name="q5" value="A" >
+                        <label for="">A. "HelloWorld"</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q5" value="B" >
+                        <label for="">B. "Hello World"</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q5" value="C" >
+                        <label for="">C. "Hello"</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q5" value="D" >
+                        <label for="">D. "World"</label>
+                    </div>
+                </div>
+                <div class="submit">
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+        </section>
+    </main>
+    <script src="./index.js"></script>
+</body>
+</html>
