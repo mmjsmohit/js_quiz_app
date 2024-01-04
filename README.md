@@ -8,7 +8,7 @@ The project consists of the following main files:
 
 - [`index.html`](./index.html "index.html"): This is the main HTML file that contains the structure of the quiz.
 - [`index.js`](./index.js "index.js"): This JavaScript file handles the logic of the quiz, such as checking the user's answers and calculating the score.
-- [`style.css`](./styles.css "style.css"): This CSS file contains the styles for the quiz.
+- [`style.css`](./style.css "style.css"): This CSS file contains the styles for the quiz.
 
 ## Deployment
 
