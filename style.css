@@ -131,3 +131,25 @@ pre {
     background-color: #009c63;
     cursor: pointer;
 }
+
+footer p {
+    text-align: center;
+}
+
+
+#heart {
+    color: red;
+    animation: heartbeat 1s infinite;
+    animation-fill-mode: none;
+}
+@keyframes heartbeat {
+    0% {
+        font-size: 16px;
+    }
+    50% {
+        font-size: 20px;
+    }
+    100% {
+        font-size: 16px;
+    }
+}
